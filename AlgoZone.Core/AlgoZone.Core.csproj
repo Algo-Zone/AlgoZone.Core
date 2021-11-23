@@ -2,6 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageVersion>0.1</PackageVersion>
+        <Title>AlgoZone.Core</Title>
+        <Authors>AlgoZone</Authors>
+        <PackageProjectUrl>https://github.com/Algo-Zone</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Algo-Zone/AlgoZone.Core</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
