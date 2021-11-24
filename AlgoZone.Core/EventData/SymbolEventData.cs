@@ -3,7 +3,7 @@
 namespace AlgoZone.Core.EventData
 {
     [Serializable]
-    public class SymbolEventData<TSymbolData> : ISymbolEventData<TSymbolData>
+    public abstract class SymbolEventData<TSymbolData> : ISymbolEventData<TSymbolData>
         where TSymbolData : ISymbolData
     {
         #region Properties

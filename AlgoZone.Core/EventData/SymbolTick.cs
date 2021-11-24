@@ -3,7 +3,7 @@
 namespace AlgoZone.Core.EventData
 {
     [Serializable]
-    public class SymbolTick : ISymbolData
+    public sealed class SymbolTick : ISymbolData
     {
         #region Properties
 

@@ -3,7 +3,7 @@
 namespace AlgoZone.Core.EventData
 {
     [Serializable]
-    public class SymbolOrderBookEntry
+    public sealed class SymbolOrderBookEntry
     {
         #region Properties
 

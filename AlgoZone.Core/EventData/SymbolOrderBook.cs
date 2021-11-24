@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace AlgoZone.Core.EventData
 {
     [Serializable]
-    public class SymbolOrderBook : ISymbolData
+    public sealed class SymbolOrderBook : ISymbolData
     {
         #region Properties
 
